@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mahran Sayed | Aerospace &amp; Hydrodynamics Engineer</title>
+  <meta name="description" content="Portfolio, resume and blog of Mahran Sayed, an aerospace engineer working on marine hydrodynamics, CFD and propeller design.">
+  <meta name="theme-color" content="#05080f">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    /* set the saved theme before first paint (avoids a flash) */
+    try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#app">Skip to content</a>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#/" aria-label="Home">
+        <svg class="logo" width="30" height="30" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <rect x="1" y="1" width="30" height="30" rx="8" stroke="currentColor" stroke-opacity=".35"/>
+          <path d="M5 19c4-8 13-10 22-5-6 1-10 6-22 5z" stroke="var(--accent)" stroke-width="1.8" stroke-linejoin="round"/>
+          <path d="M4 25c2-2 3.5 2 6 0s3.5 2 6 0 3.5 2 6 0 3.5 2 6 0" stroke="var(--accent-2)" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+        <span id="brand-name">Mahran Sayed</span>
+      </a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="#/resume" data-s="resume">Resume</a>
+        <a href="#/portfolio" data-s="portfolio">Portfolio</a>
+        <a href="#/blog" data-s="blog">Blog</a>
+        <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle light / dark theme"></button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="footer">
+    <div class="container"><p id="foot"></p></div>
+  </footer>
+
+  <noscript><p style="padding:2rem;color:#fff">This site needs JavaScript enabled.</p></noscript>
+
+  <script src="config.js"></script>
+  <script src="assets/js/markdown.js"></script>
+  <script src="assets/js/hero.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
