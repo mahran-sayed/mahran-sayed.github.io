@@ -358,7 +358,7 @@ window.SITE_CONFIG = {
   /* ------------------------------- Blog --------------------------------- */
   blog: {
     title: "Blog",
-    intro: "Notes on fluids, flight and space. (The three posts below are samples. Replace them with your own.)",
+    intro: "Notes on fluids, flight and space.",
   },
 
   /*  One block per post. Content is  content/blog/<slug>/index.md
